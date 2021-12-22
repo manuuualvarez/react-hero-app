@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Search Screen should show danger alert when the result is empty 1`] = `
+Array [
+  <h1>
+    Search Screen
+  </h1>,
+  <hr />,
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Search an Hero"
+          type="text"
+          value="pokemon"
+        />
+        <button
+          className="btn btn-primary mt-3 col-12"
+          type="submit"
+        >
+           Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="alert alert-danger animate__animated animate__bounce"
+      >
+        No heros with this filter with: 
+        pokemon
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Test Search Screen should show success 1`] = `
+Array [
+  <h1>
+    Search Screen
+  </h1>,
+  <hr />,
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Search an Hero"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn btn-primary mt-3 col-12"
+          type="submit"
+        >
+           Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="alert alert-warning animate__animated animate__bounce"
+      >
+        Please search some
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Test Search Screen should show success with batman parameter 1`] = `
+Array [
+  <h1>
+    Search Screen
+  </h1>,
+  <hr />,
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Search an Hero"
+          type="text"
+          value="batman"
+        />
+        <button
+          className="btn btn-primary mt-3 col-12"
+          type="submit"
+        >
+           Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="col-4"
+            >
+              <img
+                alt="Batman"
+                className="card-img"
+                src="/assets/dc-batman.jpg"
+              />
+            </div>
+            <div
+              className="col-8"
+            >
+              <div
+                className="card-body"
+              >
+                <h5
+                  className="card-title"
+                >
+                  Batman
+                </h5>
+                <p
+                  className="card-text"
+                >
+                   
+                  Bruce Wayne
+                </p>
+                <p
+                  className="card-text"
+                >
+                  <small
+                    className="text-muted"
+                  >
+                     
+                    Detective Comics #27
+                  </small>
+                </p>
+                <a
+                  href="/hero/dc-batman"
+                  onClick={[Function]}
+                >
+                   Más Info ... 
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Test Search Screen should show success without parameters 1`] = `
+Array [
+  <h1>
+    Search Screen
+  </h1>,
+  <hr />,
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Search an Hero"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn btn-primary mt-3 col-12"
+          type="submit"
+        >
+           Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="alert alert-warning animate__animated animate__bounce"
+      >
+        Please search some
+      </div>
+    </div>
+  </div>,
+]
+`;
